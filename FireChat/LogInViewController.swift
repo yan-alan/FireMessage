@@ -1,8 +1,6 @@
-//
+//  Alan Yan
 //  LogInViewController.swift
-//  Flash Chat
-//
-//  This is the view controller where users login
+//  FireChat
 
 
 import UIKit
@@ -11,7 +9,6 @@ import SVProgressHUD
 
 class LogInViewController: UIViewController {
 
-    //Textfields pre-linked with IBOutlets
     @IBOutlet var emailTextfield: UITextField!
     @IBOutlet var passwordTextfield: UITextField!
     
@@ -38,7 +35,6 @@ class LogInViewController: UIViewController {
                 self.performSegue(withIdentifier: "goToChat", sender: self)
             }
         }
-        //TODO: Log in the user
         
         
     }
